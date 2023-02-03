@@ -2,7 +2,7 @@
 
 ## Sobre
 
-## Desafios
+## Descrição
 
 ## Objetivos
 
