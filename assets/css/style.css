@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    font-family: 'Sansita Swashed', cursive;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 50px;
     background: #f4f4f4 url(../img/fundo.jpg) no-repeat;
     background-size: cover;
