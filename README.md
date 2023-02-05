@@ -2,7 +2,7 @@
 
 ## Sobre
 
-## escrição
+## Descrição
 
 ## Objetivos
 
