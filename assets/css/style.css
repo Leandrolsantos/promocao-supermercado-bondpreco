@@ -8,9 +8,11 @@ body {
 }
 
 main {
-    border: double;
+    border: groove;
+    border-width: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.962);
     padding: 20px 20px 20px 20px;
-    border-color: rgb(0, 0, 0);
+    border-color: rgb(255, 115, 0);
 }
 
 .titulo {
