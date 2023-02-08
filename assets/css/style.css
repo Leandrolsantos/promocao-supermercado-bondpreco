@@ -12,7 +12,7 @@ main {
     background: rgba(255, 255, 255, 0.7);
     border-width: 10px;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.962);
-    padding: 20px 20px 20px 20px;
+    padding: 0 8px 0 8px;
     border-color: rgb(255, 115, 0);
 }
 
@@ -25,6 +25,15 @@ main {
     font-size: 38px;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #000;
+    margin: 10px 0px 10px 0px;
+}
+
+h1 > span {
+    border: double;
+    border-radius: 20px;
+    border-width: 10px;
+    border-color: green;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.873); 
 }
 
 .descricao {
@@ -38,9 +47,11 @@ main {
 }
 
  input {
+    display: flex;
+    justify-items: center;
     border-radius: 10px;
     padding: 5px;
-    margin: 10px 0 20px 10px;
+    margin: 3px 0 0px -20px;
     width: 100%;
     padding: 10px 0 10px 10px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.878);
@@ -56,8 +67,8 @@ ul {
     display: grid;
     grid-template-columns: 300px auto 55%;
     justify-items: center;
-    margin: 0 auto;
-    padding: 0 0 0 29px;
+    margin: 0 0 0 0;
+    padding: 5px 0px 10px 28px;
 }
 
 #celular {
@@ -80,7 +91,7 @@ ul {
     display: flex;
     flex-direction:row;
     margin: 0 auto;
-    padding: 10px 0 10px auto;
+    padding: 7px 7px 7px 7px;
     font-size: 30px;
     border-radius: 6px;
     color: chartreuse;
@@ -90,19 +101,77 @@ ul {
 }
 
 .ocultar-link:link {
-    color: black;
+    color: rgb(255, 123, 0);
     text-decoration: none;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
 }
 
 .ocultar-link:visited {
-    color: black;
-    text-decoration: none; 
+    color: rgb(255, 123, 0);
+    text-decoration: none;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000; 
 }
 
 .botao:hover {
     transform: scale(1.2);
 }
 
-.container {
-    display: none;
+footer {
+    background: rgba(255, 255, 255, 0.467);
+    -webkit-text-stroke-width: 0.6px;
+    -webkit-text-stroke-color: #000;
+    text-align: center;
+    padding: 32px;
+    margin: 7px auto;
+    color: rgb(255, 98, 0);
+    font-size: 15px;
+    text-decoration: overline;
+  }
+
+/* Mobile First */
+
+@media screen and (min-width: 320px) and (max-width: 600px) {
+    
+    /* MOBILE */
+    * {
+        font-family: 'Fredoka One', cursive;
+        display: flex;
+        font-size: 1.3em;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body, html {
+        height: 100vh;
+    }
+    
+    body {
+        background: rgb(0, 0, 0) url("../img/fundo.jpg") no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+    
+    main {
+        background-color: rgba(255, 255, 255, 0.466);
+        width: 80vw;
+        margin: auto;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    
+    h1 {
+        text-align: center;
+        font-size: 4em;
+        color: rgb(16, 231, 255);
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.896);
+    }
+    
+    img {
+        display: block;
+        margin: auto;
+        width: 60%;
+    }
 }
