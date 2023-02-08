@@ -40,15 +40,6 @@ Telas Maiores: acima de 1200px.
         border-radius: 10px;
         padding: 10px;
     }
-
-    .titulo {
-        background: url("../img/mascote.png") no-repeat;
-        background-attachment: fixed;
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column;
-        margin: 0 auto;
-    }
     
     h1 {
         text-align: center;
