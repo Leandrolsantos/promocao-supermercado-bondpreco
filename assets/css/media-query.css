@@ -4,14 +4,14 @@
 
 /* Diferencial de telas entre aparelhos 
 ============================================
-Pequenas telas: 320px até 600px.
+Pequenas telas: 480px até 600px.
 Celulares: de 600px até 768px.
 Tablets: de 768px até 992px.
 Desktops: de 992px até 1200px.
 Telas Maiores: acima de 1200px.
 */
 
-@media screen and (min-width: 320px) and (max-width: 600px) {
+@media screen and (min-width: 480px) and (max-width: 600px) {
     
     /* MOBILE */
     * {
@@ -21,6 +21,7 @@ Telas Maiores: acima de 1200px.
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        width: auto;
     }
 
     body, html {
