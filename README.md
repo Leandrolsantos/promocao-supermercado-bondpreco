@@ -21,7 +21,7 @@ Este é o primeiro projeto que faço com foco no Media Query, verificando a dife
 ### Conclusão
 Este foi meu primeiro contato com o foco em site responsivo. Confesso que achei importantíssimo, pois consegui compreender a lógica dessa ferramenta e enxergar a necessidade da construção do código com esse foco. 
 
-Percebi que ao fazer testes no Chrome, o responsivo está bom, necessita de alguns ajustes e tenha certeza de que foi um grande salto para quem nunca desenvolveu dessa forma antes. 
+Percebi que ao fazer testes no Chrome, o responsivo está bom, necessita de alguns ajustes e tenho certeza de que foi um grande salto para quem nunca desenvolveu dessa forma antes. 
 
 Depois desta experiência, me instigou ainda mais a desenvolver projetos com essa aplicação, com certeza será um item chave para os projetos que farei daqui para frente.
 ### Ferramentas Utilizadas
